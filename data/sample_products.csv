@@ -1,0 +1,45 @@
+brand,category,product,price,rating,review_count
+Nike,sneakers,Air Force 1,115,4.7,12400
+Nike,sneakers,Dunk Low,120,4.6,8900
+Nike,sneakers,Air Max 90,130,4.5,6200
+Adidas,sneakers,Samba OG,100,4.8,9700
+Adidas,sneakers,Superstar,95,4.6,7300
+Adidas,sneakers,Ultraboost Light,190,3.5,2100
+New Balance,sneakers,574 Core,90,4.5,5400
+New Balance,sneakers,550,110,4.7,6800
+New Balance,sneakers,990v6,200,4.8,3100
+Puma,sneakers,Suede Classic,75,4.3,3900
+Puma,sneakers,RS-X,110,3.6,1800
+Puma,sneakers,Speedcat,100,4.4,2600
+Converse,sneakers,Chuck Taylor All Star,65,4.6,11000
+Converse,sneakers,Chuck 70,90,4.7,4300
+Levi's,jeans,501 Original,80,4.6,15200
+Levi's,jeans,511 Slim,70,4.5,9800
+Levi's,jeans,Ribcage Straight,98,4.4,5100
+Wrangler,jeans,Cowboy Cut,45,4.5,6400
+Wrangler,jeans,Retro Slim,55,4.3,2200
+Wrangler,jeans,Regular Fit,40,4.2,3500
+Gap,jeans,Straight Fit,70,4.1,2800
+Gap,jeans,Skinny Fit,60,3.4,1500
+Gap,jeans,Vintage Slim,75,4.0,2400
+Lee,jeans,Legendary Regular,50,4.2,2900
+Lee,jeans,Extreme Motion,55,4.4,4700
+Lee,jeans,Relaxed Fit,48,4.0,1900
+Diesel,jeans,D-Strukt Slim,160,4.2,1200
+Diesel,jeans,1996 D-Sire,180,4.5,900
+Diesel,jeans,Larkee Straight,170,3.75,700
+The North Face,jackets,Nuptse 1996,330,4.8,7800
+The North Face,jackets,Denali Fleece,179,4.7,10300
+The North Face,jackets,Resolve Rain,99,4.4,5600
+Columbia,jackets,Watertight II,80,4.5,12100
+Columbia,jackets,Powder Lite,110,4.3,4200
+Columbia,jackets,Steens Mountain Fleece,50,4.6,8600
+Patagonia,jackets,Better Sweater,149,4.8,6900
+Patagonia,jackets,Nano Puff,239,4.7,5200
+Patagonia,jackets,Torrentshell 3L,179,4.5,3300
+Carhartt,jackets,Duck Active Jacket,130,4.6,4800
+Carhartt,jackets,Rain Defender,100,3.6,1400
+Carhartt,jackets,Sherpa Lined Jacket,150,4.4,2700
+Zara,jackets,Faux Leather Biker,90,3.9,2000
+Zara,jackets,Oversized Blazer,80,4.0,1700
+Zara,jackets,Puffer Jacket,70,3.5,900

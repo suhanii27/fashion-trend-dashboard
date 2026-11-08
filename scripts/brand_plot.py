@@ -1,3 +1,4 @@
+import pandas as pd
 import streamlit as st
 import plotly.express as px
 from load_data import load_products
@@ -24,3 +25,25 @@ fig = px.bar(
     title="Brands ordered by popularity (most reviews on the left)",
 )
 st.plotly_chart(fig, use_container_width=True)
+
+# --------------breakdown-----------------
+st.subheader(f"Trend breakdown: {category}")
+breakdown = top3[top3["category"] == category].copy()
+
+# same brand order as the chart (most reviews on the left = first in the table)
+breakdown["brand"] = pd.Categorical(breakdown["brand"], categories=cat_summary["brand"].tolist(), ordered=True)
+breakdown = breakdown.sort_values(["brand", "rank"])
+
+st.dataframe(
+    breakdown[["brand", "product", "price", "rating", "review_count"]],
+    use_container_width=True,
+    hide_index=True,
+    column_config={
+        "brand": "Brand",
+        "rank": "Rank",
+        "product": "Product",
+        "price": st.column_config.NumberColumn("Price", format="$%.2f"),
+        "rating": st.column_config.NumberColumn("Rating", format="%.2f"),
+        "review_count": st.column_config.NumberColumn("Reviews", format="%d"),
+    },
+)
